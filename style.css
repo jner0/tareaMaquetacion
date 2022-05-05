@@ -1,0 +1,270 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.header--title-container{
+    min-width: 320px;
+    font-weight: bold;
+    padding: 12px;
+    border-bottom: 1px solid #c6c6c6;
+}
+
+main{
+    width: 100%;
+    height: auto;
+   
+}
+
+.iphone-image-container{
+    width: 275px;
+    height: 275px;
+    margin: 10px auto;
+    background-image: url(./Images/iPhone-13-2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.iphone-image-container div{
+    display: inline-block;
+    background-color: green;
+    width: 40px;
+    height: 25px;
+    padding: 6px;
+    color: white;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+/*Siguiente seccion*/
+
+.main--oferta-container-title .oferta{
+    padding: 8px 12px;
+    font-weight: bold;
+    color: red;
+}
+
+.main--oferta-container-title h2{
+    padding: 0 12px;
+    font-size: 2rem;
+}
+
+.main--oferta-body{
+    width: 90%;
+    min-width: 288px;
+    max-width: 400px;
+    height: auto;
+    margin: 15px 12px;
+    font-size: 1.3rem;
+}
+
+.precio p{
+    font-size: 2rem;
+    height: 30px;
+    font-weight: bold;
+    margin: 0 12px;
+    display: inline-block;
+}
+.precio .comprar--buttom{
+    font-size: 1.2rem;
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    border-radius: 8px;
+    background-color: blue;
+    color: white;
+    padding: 8px;
+    text-align: center;
+    margin: 0;    
+}
+
+/*Seccion de pequeños detalles*/
+.main-details{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.details p{
+    width: 90px;
+    font-weight: 300;
+    margin: 20px 20px 12px 0;
+    display: inline-block;
+    font-size: 1.2rem;
+}
+
+.icon{
+    display: inline-block;
+    margin: 10px 12px;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.market{
+    background-image: url(./Images/Icons/Small_Business.svg);
+}
+
+.reboot{
+    background-image: url(./Images/Icons/Reboot.svg);
+}
+
+.dollar{
+    background-image: url(./Images/Icons/Us\ Dollar\ Circled.svg);
+}
+
+/*Seccion Accesorios recomendados*/
+
+.product--detail-title h2{
+    font-size: 2rem;
+    margin: 12px;
+}
+
+/*Seccion de cards con productos--------------------------*/
+
+.product--detail-card{
+    width: 90%;
+    margin: 15px 12px;
+    min-width: 288px;
+    max-width: 300px;
+    border: 2px solid #c6c6c6;
+    border-radius: 5px;
+
+}
+
+.product-card-title{
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin: 10px 8px;
+
+}
+
+.product-card-body{
+    font-size: 1.2rem;
+    padding: 0 8px 8px 8px;
+}
+
+.product-oferta{
+    font-size: 1.2rem;
+    display: inline-block;
+    width: 50px;
+    height: 30px;
+    border-radius: 8px;
+    background-color: red;
+    color: white;
+    padding: 8px;
+    text-align: center;
+    margin: 0px 8px 10px 8px;
+}
+
+.product-nuevo{
+    font-size: 1.2rem;
+    display: inline-block;
+    width: 50px;
+    height: 30px;
+    border-radius: 8px;
+    background-color: blue;
+    color: white;
+    padding: 8px;
+    text-align: center;
+    margin: 0px 8px 10px 8px;
+}
+
+/*Imagenes de la seccion de prodcutos*/
+
+figure .product-img-container{
+    display: inline-block;
+    margin: 12px 20px;
+    height: 200px;
+    min-width: 250px;
+    max-width: 350px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.product-cargador{
+    background-image: url(./Images/cargador.jpg);
+}
+
+.product-base{
+    background-image: url(./Images/base\ de\ carga.jpg);
+}
+
+.product-funda{
+    background-image: url(./Images/funda.jpg);
+}
+
+.product-cargadorNuevo{
+    background-image: url(./Images/newcharger.jpg);
+}
+
+/*-------------------------------Seccion Formulario------------------------------*/
+
+.main--form-container{
+    background-color: #CBE7FB;
+    width: 90%;
+    margin: 5px 12px;
+    min-width: 288px;
+    max-width: 300px;
+}
+
+.main--form-container h2{
+    font-size: 3rem;
+    padding: 15px;
+}
+
+.main--form-container p{
+    font-size: 1.2rem;
+    padding: 5px 15px;
+}
+
+form{
+    margin: 5px 12px;
+}
+
+form label{
+    display: inline-block;
+    padding: 0 0 5px 0;
+}
+
+form input[type="text"],
+form input[type="email"]{
+    width: 250px;
+    padding:3px 10px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;
+	margin:8px 0;
+	display:inline-block;
+}
+
+button{
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    border:1px solid #000;
+    margin: 10px 0 15px 0;
+}
+
+/*--------------------Footer--------------------------*/
+.footer--container{
+    min-width: 320px;
+    margin: 20px 0;
+    border-top: 1px solid #c6c6c6;;
+}
+
+.footer--container p{
+    text-align: center;
+}
