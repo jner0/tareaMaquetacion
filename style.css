@@ -19,7 +19,6 @@ html{
 main{
     width: 100%;
     height: auto;
-   
 }
 
 .iphone-image-container{
@@ -44,6 +43,13 @@ main{
 }
 
 /*Siguiente seccion*/
+
+
+
+.main--oferta-container{
+    display: flex;
+    justify-content: center;
+}
 
 .main--oferta-container-title .oferta{
     padding: 8px 12px;
@@ -86,6 +92,7 @@ main{
 }
 
 /*Seccion de pequeños detalles*/
+
 .main-details{
     display: flex;
     flex-wrap: wrap;
@@ -131,6 +138,12 @@ main{
 }
 
 /*Seccion de cards con productos--------------------------*/
+
+.main--product-detail{
+    
+    display: flex;
+    justify-content: center;
+}
 
 .product--detail-card{
     width: 90%;
